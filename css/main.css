@@ -1,0 +1,133 @@
+main{
+    background-color: #0E1253;
+    background-attachment: fixed;
+}
+
+.showcase{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -50px;
+
+    height: calc(100vh - 100px);
+}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #060E49;
+    background-attachment: fixed;
+}
+
+.header_container{
+    width: 92%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo{
+    font-size: 1.4rem;
+}
+
+.btn_menu{
+    border: none;
+    background: none;
+}
+
+.btn_git{
+    background: linear-gradient(to right, #7FAA63 50%, #548435 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    padding: 5px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    height: 2rem;
+    transition: all 300ms ease-out;
+}
+
+a.btn_git:hover{
+    background-position: left bottom;
+
+
+}
+
+.bloco_titulo{
+    margin-bottom: 25px;
+}
+
+.git_logo{
+    width: 1.3rem;
+    margin-right: 5px;
+}
+
+#menu{
+    display: none;
+}
+
+@media (min-width: 900px){
+    #menu{
+        display: flex;
+    }
+
+    .btn_menu{
+        display: none;
+    }
+}
+
+#menu li{
+    padding: 0 7px;
+}
+
+#menu li:last-child{
+    padding-right: 0;
+}
+
+#menu a{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding: 0 10px;
+}
+
+#menu a:after{
+    content: "";
+    position: absolute;
+    background-color: #7FAA63;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -8px;
+    transition: 350ms;
+}
+
+#menu a:hover:after{
+    width: 100%;
+}
+
+.chamada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo_chamada{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.nome{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.pc_skills{
+    width: 50%;
+}
