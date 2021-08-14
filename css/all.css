@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: #EEF1FF;
+    color: #060A2B;
 }
 
 ul{
@@ -15,11 +15,15 @@ a{
 
 body{
     font-family: 'Fira Code', monospace;
-    background-color: #E5E5E5;
+    background-color: #F8F9FA;
 }
 
 .container{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
 }

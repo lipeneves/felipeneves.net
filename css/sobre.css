@@ -1,0 +1,55 @@
+#sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.sobre-txt{
+    width: 70%;
+}
+
+#sobre p, #sobre h2{
+    color: #060A2B;
+}
+
+#sobre h2{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#sobre p{
+    margin-bottom: 10px;
+}
+
+
+img.round{
+    width: 30%;
+    border-radius: 50%;
+    max-width: 300px;
+    margin-right: 30px;
+}
+
+.btn_sobre{
+    background: linear-gradient(to right, #383F7F 50%, #0E1253 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    padding: 5px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    height: 2.5rem;
+    transition: all 300ms ease-out;
+}
+
+a.btn_sobre:hover{
+    background-position: left bottom;
+    
+
+}
+
+.btns-sobre{
+    margin-top: 20px;
+}
