@@ -53,3 +53,40 @@ a.btn_sobre:hover{
 .btns-sobre{
     margin-top: 20px;
 }
+
+@media (max-width: 900px){
+
+    #sobre{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sobre h2{
+        display: block;
+        text-align: center;
+    }
+
+    .sobre-txt{
+        width: 90%;
+    }
+
+    img.round {
+        width: 80%;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .btns-sobre {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 460px){
+    .btns-sobre a{
+        display: block;
+        margin-bottom: 10px;
+        padding: 5px 0;
+    }
+}
