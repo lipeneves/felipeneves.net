@@ -4,10 +4,6 @@ main{
     
 }
 
-header a{
-    color: #EEF1FF;
-}
-
 .showcase{
     display: flex;
     align-items: center;
@@ -37,17 +33,11 @@ header{
 
 .header_logo{
     font-size: 1.4rem;
-    color: #EEF1FF;
 }
 
 #btn_menu{
     border: none;
     background: none;
-    color: #F8F9FA;
-}
-
-#btn_menu *{
-    color: #F8F9FA;
 }
 
 .btn_git{
@@ -60,7 +50,7 @@ header{
     font-family: 'Poppins', sans-serif;
     display: inline-flex;
     align-items: center;
-    height: 2rem;
+    height: 2.2rem;
     transition: all 300ms ease-out;
     
 }
@@ -79,10 +69,6 @@ a.btn_git:hover{
 .git_logo{
     width: 1.3rem;
     margin-right: 5px;
-}
-
-.git_text, .bloco_titulo *{
-    color: #EEF1FF;
 }
 
 #menu{
