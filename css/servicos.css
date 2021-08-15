@@ -36,3 +36,20 @@
     max-height: 100px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 900px){
+    #servicos .group_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #servicos .box{
+        width: 90%;
+        max-width: none;
+        margin-bottom: 40px;
+    }
+
+    #servicos .box:last-child{
+        margin-bottom: 0px;
+    }
+}
