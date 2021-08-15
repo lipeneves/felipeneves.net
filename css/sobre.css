@@ -3,10 +3,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 25px 0;
+    min-height: 50vh;
 }
 
 .sobre-txt{
-    width: 70%;
+    width: 64%;
 }
 
 #sobre p, #sobre h2{
@@ -24,9 +25,9 @@
 
 
 img.round{
-    width: 30%;
+    width: 32%;
     border-radius: 50%;
-    max-width: 300px;
+    max-width: 350px;
     margin-right: 30px;
 }
 

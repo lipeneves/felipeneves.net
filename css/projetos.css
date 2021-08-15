@@ -1,0 +1,72 @@
+
+#projetos{
+    background-color: #0E1253;
+    padding-bottom: 50px;
+    min-height: 50vh;
+}
+
+#projetos p, #projetos h3{
+    color: #060A2B;
+}
+
+#projetos .img_box{
+    width: 100%;
+}
+
+#projetos p{
+    font-family: 'Poppins', sans-serif;
+}
+
+#projetos h2{
+    text-align: center;
+    padding: 25px 0;
+    color: white;
+}
+
+#projetos h3{
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+
+#projetos .box{
+    width: 32%;
+    max-width: 350px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 0 #23420f;
+    background: white;
+}
+
+#projetos .group_box{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_projeto{
+    background: linear-gradient(to right, #7FAA63 50%, #548435 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    padding: 5px 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    height: 3rem;
+    transition: all 300ms ease-out;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+a.btn_projeto:hover{
+    background-position: left bottom;
+
+}
