@@ -1,8 +1,7 @@
 
 #projetos{
     background-color: #0E1253;
-    padding-bottom: 50px;
-    min-height: 50vh;
+    padding: 50px 0;
 }
 
 #projetos p, #projetos h3{
@@ -19,7 +18,7 @@
 
 #projetos h2{
     text-align: center;
-    padding: 25px 0;
+    padding-bottom: 40px;
     color: white;
 }
 

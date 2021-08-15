@@ -1,0 +1,26 @@
+#habilidades{
+    padding: 50px 0;
+    background: #D4D6D8;
+}
+
+#habilidades h2{
+    color: #060A2B;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#habilidades .group_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#habilidades .box{
+    max-width: 20%;
+    background-color: #F8F9FA;
+    border-radius: 10px;
+}
+
+#habilidades h3{
+    color: #060A2B;
+}

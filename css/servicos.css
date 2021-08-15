@@ -1,7 +1,6 @@
 #servicos{
     background: #D4D6D8;
-    padding: 25px 0;
-    min-height: 50vh;
+    padding: 50px 0;
 }
 
 #servicos .box{
@@ -21,7 +20,7 @@
 
 #servicos h2{
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 #servicos h3{

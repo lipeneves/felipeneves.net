@@ -1,0 +1,38 @@
+#contato{
+    background: #181818;
+    padding: 50px 0;
+}
+
+#contato .box{
+    background: #F8F9FA;
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+#contato p, #contato h3{
+    color: #181818;
+}
+
+#contato h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#contato a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#contato .group_box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#contato img{
+    max-width: 50px;
+    padding-bottom: 15px;
+}
